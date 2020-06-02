@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/SS">
+        <file>RES/StartScene/B1.png</file>
+        <file>RES/StartScene/S1.png</file>
+    </qresource>
+    <qresource prefix="/GameScene">
+        <file>RES/GameScene/BackB.png</file>
+        <file>RES/GameScene/S1.jpg</file>
+    </qresource>
+</RCC>
