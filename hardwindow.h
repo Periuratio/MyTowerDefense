@@ -1,21 +1,18 @@
-#ifndef GAMEWINDOW_H
-#define GAMEWINDOW_H
+#ifndef HARDWINDOW_H
+#define HARDWINDOW_H
 
 #include <QMainWindow>
 #include<QPainter>
 #include<QPixmap>
 #include<QPaintEvent>
-#include"tower.h"
 #include <QList>
-class GameWindow : public QMainWindow
+class HardWindow : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit GameWindow(QWidget *parent = nullptr);
+    explicit HardWindow(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent*);
-    void set_tower();
 private:
-    QList<Tower*> tower_list;
 signals:
 
     //void chooseBack();

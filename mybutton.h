@@ -9,8 +9,6 @@ class MyButton : public QPushButton
     Q_OBJECT
 public:
     MyButton(QString);
-    void buttonup();
-    void buttondown();
 signals:
 
 };
