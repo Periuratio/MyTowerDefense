@@ -1,11 +1,22 @@
 #ifndef WAYPOINT_H
 #define WAYPOINT_H
 
+#include <QPoint>
 
-class waypoint
+class QPainter;
+
+class WayPoint
 {
 public:
-    waypoint();
+    WayPoint(QPoint pos);
+
+    void setNextWayPoint(WayPoint *nextPoint);
+    WayPoint* nextWayPoint() const;
+    const QPoint pos() const;
+
+private:
+    const QPoint		m_pos;
+    WayPoint *			m_nextWayPoint;
 };
 
 #endif // WAYPOINT_H

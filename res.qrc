@@ -8,5 +8,22 @@
         <file>RES/GameScene/SE.png</file>
         <file>RES/GameScene/SH.png</file>
         <file>RES/GameScene/towerpoint.png</file>
+        <file>RES/GameScene/life.png</file>
+        <file>RES/GameScene/money.png</file>
+        <file>RES/GameScene/towerbutton.png</file>
+        <file>RES/GameScene/BackB.png</file>
+    </qresource>
+    <qresource prefix="/Tower">
+        <file>RES/Tower/FB.png</file>
+        <file>RES/Tower/FT.png</file>
+        <file>RES/Tower/IB.png</file>
+        <file>RES/Tower/IT.png</file>
+        <file>RES/Tower/NB.png</file>
+        <file>RES/Tower/NT.png</file>
+    </qresource>
+    <qresource prefix="/Enemy">
+        <file>RES/Enemy/defend-enemy.png</file>
+        <file>RES/Enemy/normal-enemy.png</file>
+        <file>RES/Enemy/quick-enemy.png</file>
     </qresource>
 </RCC>
